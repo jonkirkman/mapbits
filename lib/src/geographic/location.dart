@@ -2,7 +2,7 @@
 part of mapbits;
 
 /**
- * A geographic, expressed by latitude and longitude.
+ * A geographic location, expressed by latitude and longitude.
  */
 class Location {
   Location();

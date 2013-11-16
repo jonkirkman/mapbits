@@ -7,7 +7,6 @@ part of mapbits;
  * The layer is tightly coupled to the viewport to which it has been added.
  */
 class layer {
-  Layer() {
+  Layer();
 
-  }
 }
