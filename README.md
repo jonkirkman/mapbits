@@ -3,9 +3,9 @@ This project really *doesn't do anything yet* and the notes below can be conside
 
 # Mapbits
 
-Rather than a single comprehensive component, Mapbits is a web mapping framework composed of loosely coupled modules that you can easily integrate or extend as you see fit. This small toolset is designed to be lean, extensible and ready for the upcoming generation of web apps.
+Rather than a single comprehensive component, Mapbits is a web mapping framework composed of loosely coupled modules to easily integrate or extend as you see fit. This small toolset is designed to be lean, extensible and ready for the upcoming generation of web apps.
 
-**Design Principles** 
+**Design Principles**
 
 * Keep modules focused
 * Model driven views & decoupled rendering
@@ -52,7 +52,7 @@ A grid layer is a generic pane/layer that requires realtime knowledge of the vis
 
 ### Geocode
 
-### Coordinate Reference System (CRS) Translation 
+### Coordinate Reference System (CRS) Translation
 
 
 
