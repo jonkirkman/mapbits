@@ -1,6 +1,11 @@
 
 part of mapbits;
 
-class Layer {
+/**
+ * A collection that is spatially bound to it's parent [Viewport].
+ * Each [Layer] is tightly coupled to the [Viewport] to which it has been added.
+ */
+class layer {
   Layer();
+
 }
