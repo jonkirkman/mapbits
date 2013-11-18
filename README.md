@@ -3,16 +3,14 @@ This project really *doesn't do anything yet* and the notes below can be conside
 
 # Mapbits
 
-The current selection of mapping tools is good but not nearly good enough.
-
-Let's use cool magic like web workers and render-queues to make this tool fast and ready for the upcoming generation of web apps.
+Rather than a single comprehensive component, Mapbits is a web mapping framework composed of loosely coupled modules that you can easily integrate or extend as you see fit. This small toolset is designed to be lean, extensible and ready for the upcoming generation of web apps.
 
 **Design Principles** 
 
-* Model driven views
-* Realtime data
-* Queue & coalesce property changes
-* Decouple rendering
+* Keep modules focused
+* Model driven views & decoupled rendering
+* Don't prevent realtime data
+* Be efficient - Queue & coalesce property changes
 
 - - -
 
