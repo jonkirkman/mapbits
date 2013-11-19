@@ -4,14 +4,23 @@ part of mapbits;
 /**
  * A geographic location, expressed by latitude and longitude.
  */
-class Location extends Point {
+class Location {
 
-  Location(num lat, num lon) : super(lon, lat);
+  num lat, lon;
 
-  // Alias lat (latitude) to y
-  num get lat          => y;
-      set lat(num val) => y = val;
-  // Alias lon (longitude) to x
-  num get lon          => x;
-      set lon(num val) => x = val;
+  Location( this.lat, this.lon );
+
+  /// Compares equality of lat & lon
+  bool operator ==(other) => (lat == other.lat) && (lon == other.lon);
+
+  // copy
+  Location copy() => new Location(lat, lon);
+
+  // Distance
+
+  /// returns a nice string representation of the Location
+  String toString() => "(${this.lat.toStringAsFixed(3)}°, ${this.lon.toStringAsFixed(3)}°)";
+
+  // TODO: Add additional string formats (ex. 51° 28' 38" N 110° 59' 35")
+
 }
