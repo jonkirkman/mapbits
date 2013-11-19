@@ -9,9 +9,11 @@ class Point {
 
   Point(this.x, this.y);
 
+  /// Compares equality of x & y
+  bool operator ==(other) => (x == other.x) && (y == other.y);
+
   /// ex. (23.123, 778.05)
   String toString() => "(${this.x.toStringAsFixed(3)}, ${this.y.toStringAsFixed(3)})";
-
 
   Point copy() => new Point(this.x, this.y);
 
